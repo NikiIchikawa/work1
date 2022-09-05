@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Roboto", "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN",
+      "Hiragino Sans", Meiryo, sans-serif;
+    font-size: 16px;
+    color: #151515;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding: 30px 70px;
+}
+
+.header-nav-list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.main-visual {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/pc_mv.jpg);
+    height: 600px;
+    background-size: cover;
+}
+
+.main-visual {
+    color: #fff;
+    text-align: center;
+}
+
+.main-visual-title {
+    font-size: 160px;
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 1px 4px 6px #00000020;
+}
+
+.main-visual-subtitle {
+    font-size: 24px;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    padding: 69px 165px 0;
+}
+
+.news-heading {
+    font-size: 40px;
+    color: #DD1B57;
+}
+
+.news-item {
+    font-size: 15px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 15px;
+}
