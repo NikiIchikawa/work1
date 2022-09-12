@@ -65,7 +65,7 @@ header {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    background-image: url(../img/pc_mv.jpg);
+    background-image: url(img/pc_mv.jpg);
     height: 600px;
     background-size: cover;
     color: #fff;
