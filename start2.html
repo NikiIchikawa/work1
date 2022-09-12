@@ -20,74 +20,128 @@
 </head>
 
 <body>
-<!-- ヘッダー --->
+<!-- ヘッダー -->
     <header>
         <div class="header-logo">
-            <a href="#">
+            <a href=".">
             <img src="img/logo.svg" alt="START">
             </a>
         </div>
         <div class="header-nav">
-            <div class="header-nav-list">
-                <ul>
-                    <li class="header-nav-item"><a href="#">ホーム</a></li>
-                    <li class="header-nav-item"><a href="#">メッセージ</a></li>
-                    <li class="header-nav-item"><a href="#">会社概要</a></li>
+            <nav class="gnav">
+                <ul class="gnav-list">
+                    <li class="gnav-item"><a class="header-item gnav-home" href=".">ホーム</a></li>
+                    <li class="gnav-item"><a class="header-item" href="message.html">メッセージ</a></li>
+                    <li class="gnav-item"><a class="header-item" href="company.html">会社概要</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
+<!-- ヘッダー -->
 
+<!-- メインビジュアル -->
     <main>
         <div class="main-visual">
             <h1 class="main-visual-title">START</h1>
             <div class="main-visual-subtitle">仕事に最高のスタートを</div>
         </div>
+<!-- メインビジュアル -->
 
-        <div class="main-content">
-<!-- ニュース --->
+        <div class="content">
+
+<!-- ニュース -->
             <section class="news">
-                <div class="news-container">
-                    <h2 class="news-heading">ニュース</h2>
-                    <div class="news-list">
-                        <ul>
-                            <li class="news-item">2030.02.10 コーポレートサイトをリニューアルしました。</li>
-                            <li class="news-item">2030.02.08 採用を強化中です！一緒に働きませんか？</li>
-                            <li class="news-item">2030.02.02 人材紹介SNS『スタート』をリリースしました。3/31まで新規登録キャンペーンを開催中です！サービス内で使える500ポイントをプレゼント！</li>
-                        </ul>
+                <div class="container">
+                    <div class="news-inner">
+                        <div class="news-heading">
+                            <h2 class="heading-title">ニュース</h2>
+                        </div>
+                        <div class="news-body">
+                            <ul class="news-list">
+                                <li class="news-item">
+                                    <a href="#" class="news-list-link">
+                                        <div class="news-list-date">
+                                        <time datetime="2030-02-10" class="news-date">2030.02.10</time>
+                                        </div>
+                                        <div class="news-list-title">
+                                        コーポレートサイトをリニューアルしました。
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="news-item">
+                                    <a href="#" class="news-list-link">
+                                        <div class="news-list-date">
+                                        <time datetime="2030-02-08" class="news-date">2030.02.08</time>
+                                        </div>
+                                        <div class="news-list-title">
+                                        採用を強化中です！一緒に働きませんか？
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="news-item">
+                                    <a href="#" class="news-list-link">
+                                        <div class="news-list-date">
+                                        <time datetime="2030-02-02" class="news-date">2030.02.02</time>
+                                        </div>
+                                        <div class="news-list-title">
+                                            人材紹介SNS『スタート』をリリースしました。3/31まで新規登録キャンペーンを開催中です！サービス内で使える500ポイントをプレゼント！
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
-<!-- サービス --->
+<!-- ニュース -->
+
+<!-- サービス -->
             <section class="service">
-                <div class="service-container">
-                    <h2 class="service-heading">サービス</h2>
-                    <div class="service-list">
-                        <div class="service-item">
-                            <div class="service-item-image">
-                            <img src="" alt=""><!--アイコン-->
+                <div class="container">
+                    <div class="service-heading">
+                        <h2 class="heading-title">サービス</h2>
+                    </div>
+                    <div class="service-absolute">SERVICE</div>
+                    <div class="service-body">
+                        <div class="service-list">
+                            <div class="service-item">
+                                <figure class="service-item-image">
+                                    <span class="item-icon material-icons-round">
+                                        work<!--アイコン-->
+                                    </span>
+                                </figure>
+                                <div class="service-list-body">
+                                    <div class="service-list-title">人材紹介業</div>
+                                    <div class="service-list-text">
+                                    <p>新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="service-item-title">人材紹介業</div>
-                            <div class="service-item-text">
-                            <p>新規サイトの制作はもちろんサイトリニューアルやランディングページの制作も可能です。</p>
+                            <div class="service-item">
+                                <figure class="service-item-image">
+                                    <span class="item-icon material-icons-round">
+                                        location_city<!--アイコン-->
+                                    </span>
+                                </figure>
+                                <div class="service-list-body">
+                                    <div class="service-list-title">スクール事業</div>
+                                    <div class="service-list-text">
+                                    <p>オンラインでWeb制作を学べるスクールを運営しています。</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-item-image">
-                            <img src="" alt=""><!--アイコン-->
-                            </div>
-                            <div class="service-item-title">スクール事業</div>
-                            <div class="service-item-text">
-                            <p>オンラインでWeb制作を学べるスクールを運営しています。</p>
-                            </div>
-                        </div>
-                        <div class="service-item">
-                            <div class="service-item-image">
-                            <img src="" alt=""><!--アイコン-->
-                            </div>
-                            <div class="service-item-title">Webメディア運営</div>
-                            <div class="service-item-text">
-                            <p>人事系メディアやWebデザイン関連のメディアなどを複数運営しています。</p>
+                            <div class="service-item">
+                                <figure class="service-item-image">
+                                    <span class="item-icon material-icons-round">
+                                        desktop_windows<!--アイコン-->
+                                    </span>
+                                </figure>
+                                <div class="service-list-body">
+                                    <div class="service-list-title">Webメディア運営</div>
+                                    <div class="service-list-text">
+                                    <p>人事系メディアやWebデザイン関連のメディアなどを複数運営しています。</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -95,18 +149,20 @@
             </section>
         </div>
     </main>
-<!-- フッター --->
+<!-- サービス -->
+
+<!-- フッター -->
     <footer>
-        <div class="footer-container">
-            <div class="footer-nav">
-                <div class="footer-nav-list"></div>
-                <ul>
-                    <li class="footer-nav-item"><a href="#">ホーム</a></li>
-                    <li class="footer-nav-item"><a href="#">メッセージ</a></li>
-                    <li class="footer-nav-item"><a href="#">会社概要</a></li>
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-nav-list">
+                    <li class="footer-nav-item"><a class="footer-nav-link" href=".">ホーム</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="message.html">メッセージ</a></li>
+                    <li class="footer-nav-item"><a class="footer-nav-link" href="company.html">会社概要</a></li>
                 </ul>
-            </div>
-            <div class="footer__copyright">&copy;START</div>
+            </nav>
+            <div class="footer-copyright">&copy;START</div>
         </div>
     </footer>
 </body>
+<!-- フッター -->
