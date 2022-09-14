@@ -3,7 +3,7 @@
 /* 全体 */
 body {
     font-family: "Roboto", "Noto Sans JP", Arial, "Hiragino Kaku Gothic ProN",
-      "Hiragino Sans", Meiryo, sans-serif;
+    "Hiragino Sans", Meiryo, sans-serif;
     font-size: 16px;
     color: #151515;
 }
@@ -87,16 +87,16 @@ header {
 
 .main-visual-title {
     font-size: 160px;
-  font-weight: bold;
-  line-height: 1;
-  text-shadow: 0 4px 6px #00000020;
-  margin-bottom: 10px;
+font-weight: bold;
+line-height: 1;
+text-shadow: 0 4px 6px #00000020;
+margin-bottom: 10px;
 }
 
 .main-visual-subtitle {
     font-size: 24px;
-  line-height: 1;
-  letter-spacing: 2px;
+line-height: 1;
+letter-spacing: 2px;
 }
 
 /* ニュース */
@@ -215,4 +215,71 @@ footer {
 .footer-copyright {
     font-size: 12px;
     letter-spacing: 0.3px;
+}
+
+/* 下層ページ：メッセージ */
+/* ヘッダー */
+.messagepage-mainvisual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 190px;
+    background-image: url(img/pc_header.jpg);
+    background-position: center;
+}
+
+.messagepage-title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.message {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.message-title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #DD1B57;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.message-subtitle{
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.message-image {
+    width: 100px;
+    margin: 0 25px 15px 0;
+    float: left;
+}
+
+.message-image-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.ceo-message-text {
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+.ceo-message-text a {
+    color: #349bf4;
+}
+
+.office-img {
+    width: 1100px;
+    height: 400px;
 }
