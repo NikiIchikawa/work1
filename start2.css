@@ -24,6 +24,7 @@ img {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 30px;
+    position: relative;
 }
 
 .content {
@@ -148,7 +149,7 @@ letter-spacing: 2px;
     font-weight: bold;
     color: #F2F2F2;
     position: absolute;
-    top: 960px;
+    top: -50px;
     right: 2%;
     z-index: -1;
 }
